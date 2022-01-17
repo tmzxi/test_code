@@ -1,0 +1,40 @@
+"TemporaryAuxCache { labels: LabelsCache 
+{ labels: [DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File 
+           { fd: 37, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-1.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+		   DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+		   fd: 38, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-2.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+		   DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+		   fd: 39, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-3.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File {
+           fd: 40, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-4.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+		   DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+		   fd: 41, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-5.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 },
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File {
+           fd: 42, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-6.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 },
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+           fd: 43, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-7.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+           fd: 44, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-8.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+           fd: 45, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-9.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }, 
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+           fd: 46, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-10.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 },
+           DiskStore { len: 1073741824, elem_len: 32, _e: PhantomData, file: File { 
+           fd: 47, path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0/sc-02-data-layer-11.dat\", read: true, write: false }, loaded_from_disk: true, store_size: 34359738368 }] }, 
+		   tree_d: MerkleTreeWrapper { inner: MerkleTree { data: enum Data, leafs: 1073741824, len: 2147483647, row_count: 31, root: Sha256Domain(a7d1cfb5270939489a1fb4c47c061f4755a15dcdd1b833640266a6643cd98728) }, 
+		   Hasher: \"sha256_hasher\" }, tree_r_last: MerkleTreeWrapper { inner: MerkleTree { data: enum Data, leafs: 1073741824, len: 1227133513, row_count: 11, 
+		   root: PoseidonDomain([25, 34, 189, 192, 135, 106, 120, 164, 51, 251, 200, 248, 1, 63, 130, 41, 47, 122, 98, 18, 217, 21, 95, 239, 207, 39, 94, 32, 153, 117, 26, 36]) }, Hasher: \"poseidon_hasher\" }, 
+		   tree_r_last_config_rows_to_discard: 2, tree_c: 
+		   MerkleTreeWrapper { inner: MerkleTree { data: enum Data, leafs: 1073741824, len: 1227133513, row_count: 11, root: PoseidonDomain([240, 162, 122, 41, 0, 45, 132, 70, 249, 198, 39, 206, 125, 24, 128, 131, 66, 27, 207, 112, 47, 155, 18, 135, 37, 97, 208, 83, 155, 197, 75, 2]) }, Hasher: \"poseidon_hasher\" }, 
+		   t_aux: TemporaryAux { labels: Labels { labels: 
+		   [StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-1\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-2\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-3\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-4\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-5\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-6\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-7\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-8\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-9\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-10\", size: Some(1073741824), rows_to_discard: 7 }, 
+		   StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"layer-11\", size: Some(1073741824), rows_to_discard: 7 }], _h: PhantomData }, tree_d_config: StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"tree-d\", size: Some(2147483647), rows_to_discard: 7 }, tree_r_last_config: StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"tree-r-last\", size: Some(153391689), rows_to_discard: 2 }, tree_c_config: StoreConfig { path: \"/mnt/md0/kz/bench868795128/cache/s-t01000-0\", id: \"tree-c\", size: Some(153391689), rows_to_discard: 2 }, _g: PhantomData }, replica_path: \"/mnt/md0/kz/bench868795128/sealed/s-t01000-0\" }"
